@@ -7,7 +7,13 @@
 	box-sizing: border-box;
 	font-family: "Inter Tight", sans-serif;
 }
-
+@media (max-width: 1200px) {
+    * {
+        animation: none !important;
+        transition: none !important;
+        transform: none !important;
+    }
+}
 /*HEAD - NAVBAR*/
 
 .head {
